@@ -172,9 +172,8 @@ header, main, footer {
         }
     }
 
-    nav::before {
-        animation: expandY .3s .8s forwards;
-    }
+    nav::before { animation: expandY .3s .8s forwards; }
+    .flourish::before { animation: expandX 1s .3s forwards; }
 }
 
 main  {
@@ -360,12 +359,12 @@ a.button {
     }
 }
 
-footer { 
+.flourish {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 1rem;
-    padding-right: 11rem;
+    padding-right: 9rem;
     img {
         width: 50px;
     }
@@ -373,7 +372,7 @@ footer {
     &::before {
         display: inline-block;
         content: "";
-        width: 100%;
+        width: 0;
         height: 2px;
         background-color: var(--col-accent);
         margin-right: 1rem;
