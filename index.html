@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Your website description">
     <title>Jordan Walkley // Portfolio</title>
+    
+    <script src="./scripts.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
 
@@ -24,16 +28,18 @@
         <h1><img src="./images/icon-col.png" alt="Jordan Walkley Icon" /><div>Jordan Walkley</div></h1>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#clients">Clients</a></li>
-            <li><a href="#career">Career</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="./documents/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
-            <li><a href="https://www.linkedin.com/in/jordan-walkley-20295180/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-        </ul>
-    </nav>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#career">Career</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="./documents/JordanWalkley_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/jordan-walkley-20295180/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </section>
 
     <main>
         <section id="banner">
@@ -73,142 +79,144 @@
         <section id="clients">
             <h2>Clients</h2>
             <ul id="client-slider--forward" class="slider">
-                <li><img src="./images/subway.png" alt="Subway Logo" /></li>
-                <li><img src="./images/lorna-jane.png" alt="Lorna Jane Logo" /></li>
-                <li><img src="./images/rspca.png" alt="RSPCA Logo" /></li>
-                <li><img src="./images/qld-government.png" alt="Queensland Government Logo" /></li>
-                <li><img src="./images/football-queensland.png" alt="Football Queensland Logo" /></li>
-                <li><img src="./images/master-drilling.png" alt="Master Drilling Logo" /></li>
-                <li><img src="./images/queensland-hydro.png" alt="Queensland Hydro Logo" /></li>
-                <li><img src="./images/lane.png" alt="The Lane Logo" /></li>
-                <li><img src="./images/scout-management.png" alt="Scout Management Logo" /></li>
-                <li><img src="./images/fortezza.png" alt="Fortezza Logo" /></li>
-                <li><img src="./images/eviam.png" alt="Eviam Logo" /></li>
-                <li><img src="./images/redchip-lawyers.png" alt="Redchip Lawyers Logo" /></li>
-                <li><img src="./images/stranger-films.png" alt="Stranger Films Logo" /></li>
+                <li><img src="./images/subway.svg" alt="Subway Logo" /></li>
+                <li><img src="./images/lorna-jane.svg" alt="Lorna Jane Logo" /></li>
+                <li><img src="./images/rspca.svg" alt="RSPCA Logo" /></li>
+                <li><img src="./images/qld-government.svg" alt="Queensland Government Logo" /></li>
+                <li><img src="./images/football-queensland.svg" alt="Football Queensland Logo" /></li>
+                <li><img src="./images/master-drilling.svg" alt="Master Drilling Logo" /></li>
+                <li><img src="./images/queensland-hydro.svg" alt="Queensland Hydro Logo" /></li>
+                <li><img src="./images/lane.svg" alt="The Lane Logo" /></li>
+                <li><img src="./images/scout-management.svg" alt="Scout Management Logo" /></li>
+                <li><img src="./images/fortezza.svg" alt="Fortezza Logo" /></li>
+                <li><img src="./images/eviam.svg" alt="Eviam Logo" /></li>
+                <!-- <li><img src="./images/redchip-lawyers.svg" alt="Redchip Lawyers Logo" /></li> -->
+                <!-- <li><img src="./images/stranger-film.svg" alt="Stranger Films Logo" /></li> -->
+                <li><img src="./images/tpg.svg" alt="Total Property Group Logo" /></li>
             </ul>  
 
-            <ul id="client-slider--reverse" class="slider">
-                <li><img src="./images/subway.png" alt="Subway Logo" /></li>
-                <li><img src="./images/lorna-jane.png" alt="Lorna Jane Logo" /></li>
-                <li><img src="./images/rspca.png" alt="RSPCA Logo" /></li>
-                <li><img src="./images/qld-government.png" alt="Queensland Government Logo" /></li>
-                <li><img src="./images/football-queensland.png" alt="Football Queensland Logo" /></li>
-                <li><img src="./images/master-drilling.png" alt="Master Drilling Logo" /></li>
-                <li><img src="./images/queensland-hydro.png" alt="Queensland Hydro Logo" /></li>
-                <li><img src="./images/lane.png" alt="The Lane Logo" /></li>
-                <li><img src="./images/scout-management.png" alt="Scout Management Logo" /></li>
-                <li><img src="./images/fortezza.png" alt="Fortezza Logo" /></li>
-                <li><img src="./images/eviam.png" alt="Eviam Logo" /></li>
-                <li><img src="./images/redchip-lawyers.png" alt="Redchip Lawyers Logo" /></li>
-                <li><img src="./images/stranger-films.png" alt="Stranger Films Logo" /></li>
-            </ul>   
+            <!-- <ul id="client-slider--reverse" class="slider">
+                <li><img src="./images/subway.svg" alt="Subway Logo" /></li>
+                <li><img src="./images/lorna-jane.svg" alt="Lorna Jane Logo" /></li>
+                <li><img src="./images/rspca.svg" alt="RSPCA Logo" /></li>
+                <li><img src="./images/qld-government.svg" alt="Queensland Government Logo" /></li>
+                <li><img src="./images/football-queensland.svg" alt="Football Queensland Logo" /></li>
+                <li><img src="./images/master-drilling.svg" alt="Master Drilling Logo" /></li>
+                <li><img src="./images/queensland-hydro.svg" alt="Queensland Hydro Logo" /></li>
+                <li><img src="./images/lane.svg" alt="The Lane Logo" /></li>
+                <li><img src="./images/scout-management.svg" alt="Scout Management Logo" /></li>
+                <li><img src="./images/fortezza.svg" alt="Fortezza Logo" /></li>
+                <li><img src="./images/eviam.svg" alt="Eviam Logo" /></li>
+                <li><img src="./images/redchip-lawyers.svg" alt="Redchip Lawyers Logo" /></li>
+                <li><img src="./images/stranger-film.svg" alt="Stranger Films Logo" /></li>
+                <li><img src="./images/tpg.svg" alt="Total Property Group Logo" /></li>
+            </ul>    -->
         </section>
 
         <section id="career">
             <h2>Career</h2>
-            <div class="career__single">
-                <div class="button">2025 — Ongoing</div>
+            <div class="career__single mb-20 pl-10 border-l-2 border-solid">
+                <div class="button date">2025 — Ongoing</div>
                 <h3>Senior Web Developer <span>Department of Premier and Cabinet</span></h3>
                 <p>Hired as a senior full-stack developer to refine strategic processes and launch enterprise-grade solutions for world class clients.</p>
                 <ul class="icon-list">
-                    <li><img src="./images/squiz-matrix.png" alt="Squiz Matrix DXP" />Squiz Matrix DXP</li>
-                    <li><img src="./images/dotnet.png" alt=".NET" />.NET</li>
-                    <li><img src="./images/javascript.png" alt="JavaScript" />JavaScript</li>
-                    <li><img src="./images/wordpress.png" alt="WordPress" />WordPress</li>
-                    <li><img src="./images/figma.png" alt="Figma" />Figma</li>
+                    <li class="button"><img src="./images/squiz.svg" alt="Squiz Matrix DXP" />Squiz Matrix DXP</li>
+                    <!-- <li><img src="./images/dotnet.svg" alt=".NET" />.NET</li> -->
+                    <li class="button"><img src="./images/javascript.svg" alt="JavaScript" />JavaScript</li>
+                    <li class="button"><img src="./images/wordpress.svg" alt="WordPress" />WordPress</li>
+                    <li class="button"><img src="./images/figma.svg" alt="Figma" />Figma</li>
                 </ul>
             </div>
 
-            <div class="career__single">
-                <div class="button">2024 — 2025</div>
+            <div class="career__single mb-20 pl-10 border-l-2 border-solid">
+                <div class="button date">2024 — 2025</div>
                 <h3>Senior Full-Stack Developer <span>IONYX Digital</span></h3>
                 <p>Hired as a senior full-stack developer to refine strategic processes and launch enterprise-grade solutions for world class clients.</p>
                 <ul class="icon-list">
-                    <li><img src="./images/php.png" alt="PHP" />PHP</li>
-                    <li><img src="./images/javascript.png" alt="JavaScript" />JavaScript</li>
-                    <li><img src="./images/wordpress.png" alt="WordPress" />WordPress</li>
-                    <li><img src="./images/react.png" alt="React" />React</li>
-                    <li><img src="./images/nextjs.png" alt="Next.js" />Next.js</li>
-                    <li><img src="./images/figma.png" alt="Figma" />Figma</li>
+                    <li class="button"><img src="./images/php.svg" alt="PHP" />PHP</li>
+                    <li class="button"><img src="./images/javascript.svg" alt="JavaScript" />JavaScript</li>
+                    <li class="button"><img src="./images/wordpress.svg" alt="WordPress" />WordPress</li>
+                    <li class="button"><img src="./images/react.svg" alt="React" />React</li>
+                    <li class="button"><img src="./images/nextjs.svg" alt="Next.js" />Next.js</li>
+                    <li class="button"><img src="./images/figma.svg" alt="Figma" />Figma</li>
                 </ul>
             </div>
 
-            <div class="career__single">
-                <div class="button">2021 — 2024</div>
+            <div class="career__single mb-20 pl-10 border-l-2 border-solid">
+                <div class="button date">2021 — 2024</div>
                 <h3>Senior Front-End Developer <span>Pixel Palace</span></h3>
                 <p>Joined the team at Pixel Palace with the goal of designing and developing dynamic, engaging experiences for creative clients.</p>
                 <ul class="icon-list">
-                    <li><img src="./images/php.png" alt="PHP" />PHP</li>
-                    <li><img src="./images/javascript.png" alt="JavaScript" />JavaScript</li>
-                    <li><img src="./images/wordpress.png" alt="WordPress" />WordPress</li>
+                    <li class="button"><img src="./images/php.svg" alt="PHP" />PHP</li>
+                    <li class="button"><img src="./images/javascript.svg" alt="JavaScript" />JavaScript</li>
+                    <li class="button"><img src="./images/wordpress.svg" alt="WordPress" />WordPress</li>
                 </ul>
             </div>
         </section>
 
         <section id="skills">
             <h2>Skills</h2>
-            <div class="">
+            <div class="mb-10">
                 <h3>Front-End</h3>
                 <ul class="icon-list">
-                    <li><img src="./images/html.png" alt="HTML" />HTML</li>
-                    <li><img src="./images/css.png" alt="CSS/SCSS" />CSS/SCSS</li>
-                    <li><img src="./images/tailwind.png" alt="Tailwind" />Tailwind</li>
-                    <li><img src="./images/javascript.png" alt="JavaScript" />JavaScript</li>
-                    <li><img src="./images/react.png" alt="React" />React</li>
-                    <li><img src="./images/typescript.png" alt="Typescript" />Typescript</li>
+                    <li class="button"><img src="./images/html.svg" alt="HTML" />HTML</li>
+                    <li class="button"><img src="./images/css.svg" alt="CSS/SCSS" />CSS/SCSS</li>
+                    <li class="button"><img src="./images/tailwind.svg" alt="Tailwind" />Tailwind</li>
+                    <li class="button"><img src="./images/javascript.svg" alt="JavaScript" />JavaScript</li>
+                    <li class="button"><img src="./images/react.svg" alt="React" />React</li>
+                    <li class="button"><img src="./images/typescript.svg" alt="Typescript" />Typescript</li>
                 </ul>
             </div>
             
-            <div class="">
+            <div class="mb-10">
                 <h3>Back-End</h3>
                 <ul class="icon-list">
-                    <li><img src="./images/php.png" alt="PHP" />PHP</li>
-                    <li><img src="./images/nextjs.png" alt="Next.js" />Next.js</li>
-                    <li><img src="./images/dotnet.png" alt=".NET" />.NET</li>
-                    <li><img src="./images/sql.png" alt="SQL" />SQL</li>
-                    <li><img src="./images/python.png" alt="Python" />Python</li>
-                    <li><img src="./images/json.png" alt="JSON" />JSON</li>
+                    <li class="button"><img src="./images/php.svg" alt="PHP" />PHP</li>
+                    <li class="button"><img src="./images/nextjs.svg" alt="Next.js" />Next.js</li>
+                    <!-- <li class="button"><img src="./images/dotnet.svg" alt=".NET" />.NET</li> -->
+                    <li class="button"><img src="./images/sql.svg" alt="SQL" />SQL</li>
+                    <li class="button"><img src="./images/python.svg" alt="Python" />Python</li>
+                    <li class="button"><img src="./images/json.svg" alt="JSON" />JSON</li>
                 </ul>
             </div>
             
-            <div class="">
+            <div class="mb-10">
                 <h3>Tools</h3>
                 <ul class="icon-list">
-                    <li><img src="./images/vscode.png" alt="VS Code" />VS Code</li>
-                    <li><img src="./images/git.png" alt="Git" />Git</li>
-                    <li><img src="./images/npm.png" alt="NPM" />NPM</li>
-                    <li><img src="./images/gulp.png" alt="Gulp/Grunt" />Gulp/Grunt</li>
-                    <li><img src="./images/figma.png" alt="Figma" />Figma</li>
-                    <li><img src="./images/wordpress.png" alt="WordPress" />WordPress</li>
-                    <li><img src="./images/squiz.png" alt="Squiz Matrix DXP" />Squiz Matrix DXP</li>
+                    <li class="button"><img src="./images/vscode.svg" alt="VS Code" />VS Code</li>
+                    <!-- <li class="button"><img src="./images/git.svg" alt="Git" />Git</li> -->
+                    <li class="button"><img src="./images/npm.svg" alt="NPM" />NPM</li>
+                    <li class="button"><img src="./images/gulp.svg" alt="Gulp/Grunt" />Gulp/Grunt</li>
+                    <li class="button"><img src="./images/figma.svg" alt="Figma" />Figma</li>
+                    <li class="button"><img src="./images/wordpress.svg" alt="WordPress" />WordPress</li>
+                    <li class="button"><img src="./images/squiz.svg" alt="Squiz Matrix DXP" />Squiz Matrix DXP</li>
                 </ul>
             </div>
         </section>
 
         <section id="interests">
             <h2>Interests</h2>
-            <div class="">
+            <div class="mb-10">
                 <h3>Technology</h3>
                 <p>Learning about technological improvements in hardware and software, especially in PCs and mobiles, amongst others technologies.</p>
             </div>
 
-            <div class="">
+            <div class="mb-10">
                 <h3>Design &amp; Development</h3>
                 <p>A keen interest in both the design and the coding side of web development, as well as maintaining personal development projects outside of professional life.</p>
             </div>
 
-            <div class="">
+            <div class="mb-10">
                 <h3>Fitness</h3>
                 <p>Keeping active with touch football, golf and other sports. An enjoyment of snow sports has led to a lot of travelling.</p>
             </div>
 
-            <div class="">
+            <div class="mb-10">
                 <h3>Arts</h3>
                 <p>Reading and illustrating — a lot of free time is spent drawing or with a book. Currently trying to maintain Japanese language skills after working for a period of time in the country.</p>
             </div>
 
-            <div class="">
+            <div class="mb-10">
                 <h3>Renovating</h3>
                 <p>Occasional free time has allowed the opportunity for renovating our house and learning about the process of home repairs and improvements.</p>
             </div>
@@ -219,7 +227,6 @@
         <img src="./images/icon-white.png" alt="Jordan Walkley Icon">
     </footer>
 
-    <script src="./scripts.js"></script>
 </body>
 
 </html>
